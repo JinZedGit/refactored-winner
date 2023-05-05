@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle:hover{
+    
+    transform: rotate(360deg);
+    transition: all linear 10s;
+}
